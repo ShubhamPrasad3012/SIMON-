@@ -1,8 +1,5 @@
 import { useState, useEffect, useRef } from "react";
 import Confetti from "react-confetti";
-
-// App Imports...
-import Heading from "./components/Heading";
 import wrong from "./sounds/wrong.mp3";
 import StartButton from "./components/StartButton";
 import GameInfo from "./components/GameInfoBox";
@@ -81,7 +78,6 @@ function App() {
 
   const nextSequence = () => {
     setGameMessage("Memorise"); 
-    setHeading(null);
     setLevel((prevLevel) => prevLevel + 1);
     setUserClickedPattern([]);
     const randomColor = buttonColours[Math.floor(Math.random() * 4)];
