@@ -8,7 +8,7 @@ const GameInfo = ({ reference, showInfo, setShowInfo }) => {
         "If First user input sequence is correct, again a Colour Box will flicker , so memorise all the previous sequence along with the new ones.",
         "The colour boxes will swap their position , so input sequence carefully !",
         "The game will continue until you click the right sequence of Colour box each time with all previous pattern.",
-        "On creating a new High Score , Confetti celebrations are done.",
+        "On creating a new High Score , Confetti celebrations are done.ok",
         "If your answer is wrong then the Choose Difficulty button appears again, and you have to again start the game from beginning"
 
     ]
